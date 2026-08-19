@@ -9,6 +9,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
+        System.out.println("hello 1");
         return "Hello Git World";
     }
 }
